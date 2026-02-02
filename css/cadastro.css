@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(33, 96, 255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.cadastro form{
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 46px;
+    gap: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    margin-bottom: 14px;
+    color: white;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.5s;
+}
+
+.genero-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+label{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type=submit]{
+    transition: 0.5s;
+    margin-top: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+input[type=submit]:hover {
+    background-color: rgb(33, 96, 255);   
+}
+
