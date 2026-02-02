@@ -10,7 +10,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 300px;
 }
 
 .login{
@@ -36,7 +35,7 @@ h1{
     display: flex;
     justify-content: center;
     font-size: 35px;
-    color: #fffefe;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
